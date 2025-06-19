@@ -1,0 +1,30 @@
+.ubicacion-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ubicacion-container-one,
+.ubicacion-detalles {
+  display: grid;
+  gap: 1rem;
+}
+
+.ubicacion-container-one select,
+.ubicacion-detalles input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.opciones-ubicacion {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
